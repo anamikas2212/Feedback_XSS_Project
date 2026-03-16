@@ -10,9 +10,6 @@
 //
 //  Demo payload: <script>alert("XSS Attack")</script>
 //  or:           <img src=x onerror="alert('XSS!')">
-//
-//  Person 3 Implementation: Display logic + XSS demonstration
-// ============================================================
 
 console.log("script_vuln.js loaded — ⚠️ Vulnerable Version Active");
 
@@ -252,5 +249,4 @@ document.addEventListener('DOMContentLoaded', () => {
             showToast('🔄 Form reset.', 'warning');
         });
     }
-
 });
